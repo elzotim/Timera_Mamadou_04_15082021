@@ -2135,7 +2135,10 @@ pre code {
 .col-xs-pull-12 {
     right: 100%
 }
-
+.partner-a{
+    color:white;
+    font-size: 12px;
+}
 .col-xs-pull-11 {
     right: 91.66666667%
 }
@@ -5173,6 +5176,18 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-fixed-top {
         border-radius: 0
     }
+    .partner{
+       
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 50%;
+            align-items: center;
+            margin: auto;
+        }
+        
+        
+    }
 }
 
 .navbar-fixed-top {
@@ -5201,6 +5216,11 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-brand>img {
     display: block
+}
+.partner-title,.meeting{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
 }
 
 @media (min-width:768px) {
