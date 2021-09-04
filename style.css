@@ -741,7 +741,10 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-
+.titre2{
+    font-weight: bold;
+    font-size: 20px;
+}
 .white {
     color: #ffffff !important;
     font-size:19px
