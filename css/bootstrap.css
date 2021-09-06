@@ -1787,7 +1787,9 @@ ul {
     margin-top: 0;
     margin-bottom: 10px
 }
-
+.partner-title{
+    color:red
+}
 ol ol,
 ol ul,
 ul ol,
@@ -2135,10 +2137,7 @@ pre code {
 .col-xs-pull-12 {
     right: 100%
 }
-.partner-a{
-    color:white;
-    font-size: 12px;
-}
+
 .col-xs-pull-11 {
     right: 91.66666667%
 }
@@ -3636,7 +3635,14 @@ textarea.input-lg {
         margin-bottom: 0;
         text-align: right
     }
+    .partner{
+       display: flex;
+       flex-direction: row;
+       justify-content:space-evenly;
+    }
 }
+
+
 
 .form-horizontal .has-feedback .form-control-feedback {
     right: 15px
@@ -5176,19 +5182,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-fixed-top {
         border-radius: 0
     }
-    .partner{
-       
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            width: 50%;
-            align-items: center;
-            margin: auto;
-        }
-        
-        
-    }
-
+}
 
 .navbar-fixed-top {
     top: 0;
@@ -5216,11 +5210,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-brand>img {
     display: block
-}
-.partner-title,.meeting{
-    font-size: 20px;
-    font-weight: bold;
-    margin: 20px 0;
 }
 
 @media (min-width:768px) {
@@ -7707,7 +7696,9 @@ button.close {
     border: 1px solid #fff;
     border-radius: 10px
 }
-
+.partner{
+    
+}
 .carousel-indicators .active {
     width: 12px;
     height: 12px;
@@ -8094,4 +8085,7 @@ button.close {
     .hidden-print {
         display: none !important
     }
+}
+.col-sm-12{
+    text-align: center;
 }
